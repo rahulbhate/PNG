@@ -1,0 +1,28 @@
+/* Feature Product Area css
+============================================================================================ */
+.product-area {
+    //display: grid;
+    text-align: center;
+    //margin: 50px;
+    background: url('../products/products_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit:cover; 
+}
+.products-section div {
+    background: $dip;
+}
+.products-section {
+    display: grid;
+    padding: 50px;
+    grid-template-columns:  repeat(3,1fr);
+    color: whitesmoke;
+    @media(max-width: 700px) {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0px;
+    }
+    @media(max-width: 500px) {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,31 @@
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+</style
+CSS rules to specify families
+font-family: 'Dosis', sans-serif;
+
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+CSS rules to specify families
+font-family: 'Julius Sans One', sans-serif;
+
+
+Fonts and Colors:
+
+Body Text:Montserrat/Lato
+
+Menu Font:Dosis
+Menu 'Home' Text Color:#c22d1e
+Menu Text Color:#2a0000
+
+Section Headings Font: Dosis
+Section Headings Font Color:#c22d1e 
+
+Top Banner Text:Julius Sans One
+Top Banner Text Color:#2a0000
+
+Banner Text: 'Browse Gold Earrings' Background Color Start:#e68b08
+Banner Text: 'Browse Gold Earrings' Background Color End:#e48c0b
+
+Footer Headings Color: #ffcc00
+

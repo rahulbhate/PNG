@@ -1,0 +1,27 @@
+.events-area {
+    //display: grid;
+    text-align: center;
+}
+.events-section {
+   display: grid;
+   padding: 50px;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 20px;
+   @media(max-width: 700px) {
+       grid-template-columns: 1fr;
+   }
+}
+.events-section-left {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   height: 440px;
+   overflow-y: scroll;
+   background: #f5f5f5;
+ 
+   @media(max-width: 700px) {
+        grid-template-columns: 1fr;
+    }
+}
+.img-responsive  {
+    margin: auto;
+   }

@@ -1,0 +1,71 @@
+//--------- start footer Area -------------//
+
+.footer-links {
+    display: grid;
+    background: $footer-links-section;
+    padding: 50px;
+    color: $offwhite;
+    grid-template-columns: repeat(3,1fr);
+    text-align: left;
+    h1 {
+        color: $footer-header-color;
+    }
+    @media(max-width: 700px) {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+.footer-bottom {
+    display: grid;
+    background: $footer-bottom-color;
+	text-align: center;
+	color: $white;
+}
+
+// Form //
+
+form {
+    //  display: grid;
+    //  justify-content: flex-start;
+    //  align-items: center;
+    // margin: auto 50px auto 50px;
+    //padding: 1em;
+  }
+  form input {
+    border: none;
+    width: 50%;
+    border-bottom: 1px solid $offwhite;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+  }
+  form p {
+    //  text-align: left;
+  }
+  form button {
+    background:  $footer-header-color;
+    padding: 1em;
+    cursor: pointer;
+    //width: 25%;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+  }
+  form button:hover {
+    background: $footer-header-color;
+  }
+  label {
+    // padding: 0.5em 0.5em 0.5em 0;
+  }
+  
+  input {
+    padding: 0.7em;
+    margin-bottom: 0.5rem;
+  }
+  input:focus {
+    outline: none;
+  }
+  
+
+//--------- end footer Area -------------//
+
