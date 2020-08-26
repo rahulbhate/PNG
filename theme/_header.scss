@@ -120,13 +120,14 @@
   height: 100%;
   width: 0;
   position: fixed;
-  top: 0;
+  top: 100;
   left: 0;
   right: 0;
   background-color: #f6d5aa;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  z-index: 999;
 }
 
 .sidenav a {
