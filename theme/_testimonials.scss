@@ -10,13 +10,26 @@
 }
 .testimonials-inner {
     display: grid;
-    text-align: center;
+    text-align: left;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
     grid-template-columns: repeat(2, 1fr);
     @media(max-width: 700px) {
         grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        
     }
 }
-.testimonials-inner img {
+.testimonials-inner img{
     width: 120px;
-    margin: auto;
+    align-self:center;
+    justify-self: right;
+    @media(max-width: 700px) {
+        align-self: center;
+        justify-self: center;
+    }
+   // margin: auto;
 }

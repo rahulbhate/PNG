@@ -12,16 +12,28 @@
    }
 }
 .events-section-left {
-    display: grid;
+   display: grid;
    grid-template-columns: repeat(2, 1fr);
    height: 440px;
    overflow-y: scroll;
    background: #f5f5f5;
- 
+   text-align: left;
+   grid-gap: 20px;
+//    align-items: center;
+//    justify-items: center;
    @media(max-width: 700px) {
         grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        text-align:center;
     }
 }
-.img-responsive  {
-    margin: auto;
-   }
+.events-section-img  {
+    //width: 120px;
+    align-self:center;
+    justify-self: flex-end;
+    @media(max-width: 700px) {
+        align-self: center;
+        justify-self: center;
+    }
+}
